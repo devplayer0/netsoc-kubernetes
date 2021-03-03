@@ -41,10 +41,6 @@ spec:
             - name: http
               containerPort: 80
               protocol: TCP
-          livenessProbe:
-            httpGet:
-              path: /
-              port: 80
         - name: sidecar
           image: alpine:3.13
           command: [sleep, infinity]

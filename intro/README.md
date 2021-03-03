@@ -121,5 +121,5 @@ kubectl scale deployment wordpress --replicas=3
 3. Delete everything
 
 ```
-kubectl delete -f wordpress/frontend.yaml -f wordpress/app.yaml -f wordpress/frontend.yaml
+kubectl delete -f wordpress/db.yaml -f wordpress/app.yaml -f wordpress/frontend.yaml
 ```
