@@ -72,7 +72,8 @@ helm create whoami
 
 2. Modify the `Chart.yaml`, `values.yaml` (default values) and templates to
 deploy `whoami`. It doesn't need a service account either. The ingress template
-provides a level of customisation not needed for the whoami app.
+provides a level of customisation not needed for the whoami app. Be sure to
+check the `NOTES.txt` template, as it references some of the values!
 
 3. Create a values file:
 
@@ -137,3 +138,5 @@ in the repo) and install Flux into your cluster.
 ### Deploy whoami with Helm Controller CRD's
 
 1. Create a `HelmRepository` object:
+
+_TBC_
