@@ -1,5 +1,7 @@
 # Introduction to Kubernetes
 
+[![Intro to Kubernetes (1/3)](https://img.youtube.com/vi/6tBKw3PFYx8/0.jpg)](https://www.youtube.com/watch?v=6tBKw3PFYx8 "Intro to Kubernetes (1/3)")
+
 ## What is Kubernetes?
 
 ### Architecture
